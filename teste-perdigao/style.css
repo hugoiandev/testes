@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Cronos Pro Bold';
+    src: url(fonts/Cronos\ Pro\ Bold.otf);
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    width: 970px;
+    height: 250px;
+    background-image: linear-gradient(to right, #B50500, #BA0600, #BE0600, #C30600);
+}
+
+.titulo {
+    font-family: 'Cronos Pro Bold';
+    font-size: 60px;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+    margin-left: 40px;
+    display: none;
+}
+
+.titulo.ativo {
+    display: block;
+    animation-name: entrada-texto;
+    animation-duration: .5s;
+}
+
+.titulo.remove {
+    display: block;
+    animation-name: saida-texto;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes entrada-texto {
+    from{
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes saida-texto {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+    }
+}
+
+.logo-perdigao {
+    margin-left: 20px;
+    display: none;
+}
+
+.logo-perdigao.ativo {
+    display: block;
+    animation-name: entrada-logo;
+    animation-duration: .5s;
+}
+
+.logo-perdigao.remove {
+    display: block;
+    animation-name: saida-logo;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes entrada-logo {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -30px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes saida-logo {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, -30px, 0);
+    }
+}

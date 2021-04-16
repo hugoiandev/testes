@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url(/fonts/trebuc.ttf);
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background: #F2F2F2;
+}
+
+/*Container Principal*/
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/*Header*/
+.img-vivinho-logo {
+    padding-top: 30px;
+    padding-left: 14px;
+}
+
+.introducao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.span-int {
+    font-family: 'Trebuchet MS';
+    font-size: 37px;
+    font-weight: bold;
+    color: #67009B;
+    line-height: 29pt;
+}
+
+.introducao-header {
+    max-width: 250px;
+    color: #67009B;
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+    line-height: 24pt;
+    position: relative;
+    left: 70px;
+    top: -30px;
+}
+
+.img-header {
+    position: relative;
+    top: -80px;
+}
+
+/*Section beneficio*/
+.beneficio p {
+    max-width: 485px;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    padding-left: 70px;
+    line-height: 21px;
+    color: #6D6E71;
+}
+
+.span-color {
+    color: #67009B;
+}
+
+.container-plano {
+    margin-top: 10px;
+   margin-left: 75px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.container-texto {
+    max-width: 430px;
+    display: flex;
+    margin-bottom: 27px;
+}
+
+.container-texto span {
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container-texto p {
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.texto-plano {
+    margin-top: 10px;
+    margin-left: 26px;
+}
+
+span.span-texto {
+    font-weight: normal;
+    color: #67009B;
+}
+
+/*Section saiba mais*/
+.texto-saiba-mais {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 30px 40px 30px 50px;
+    border: 1px solid #67009B;
+}
+
+.texto-saiba-mais p {
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    line-height: 20px;
+    color: #6D6E71;
+}
+
+.link-saiba-mais {
+    color: #67009B;
+}
+
+.vivo-travel {
+    margin-top: 30px;
+    display: flex;
+}
+
+.vivo-travel img {
+    margin-left: 40px;
+}
+
+.texto-vivo-travel p {
+    max-width: 239px;
+    margin-top: 40px;
+    margin-left: 30px;
+    line-height: 35px;
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+    color: #6D6E71;
+}
+
+.texto-vivo-travel span:nth-child(1) {
+    font-weight: bold;
+    color: #67009B;
+}
+
+.color-style {
+    background: #D7D7D7;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    
+}
+
+.beneficios-vivo-travel {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.beneficios-vivo-travel span {
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    font-weight: bold;
+    color: #67009B;
+}
+
+.logos-beneficio {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.logos-beneficio div {
+    text-align: center;
+    margin-right: 15px;
+}
+
+.logos-beneficio img {
+    margin-bottom: 10px;
+}
+
+.logos-beneficio p {
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    font-weight: bold;
+    color: #67009B;
+    line-height: 20px;
+}
+
+.logos-beneficio .franquia p {
+    max-width: 138px;
+}
+
+.logos-beneficio .minutos p {
+    max-width: 94px;
+}
+
+.logos-beneficio .ilimitado p {
+    max-width: 94px;
+}
+
+.logos-beneficio .sms p {
+    max-width: 94px;
+}
+
+.button-saiba-mais {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.button-saiba-mais a {
+    font-family: 'Trebuchet MS';
+    font-size: 21px;
+    text-decoration: none;
+    background: #67009B;
+    color: white;
+    padding: 10px 100px;
+    border-radius: 27px;
+}
+
+/*Footer*/
+.container-footer {
+    margin: 0 auto;
+    max-width: 483px;
+    margin-top: 115px;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #67009B;
+}
+
+.texto-footer p {
+    color: #6D6E71;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+}
+
+.texto-footer span {
+    color: #67009B;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.subscriber {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subscriber p {
+    font-size: 9px;
+    font-family: 'Trebuchet MS';
+    color: #6D6E71;
+}
+
+.subscriber a {
+    color: #6D6E71;
+}

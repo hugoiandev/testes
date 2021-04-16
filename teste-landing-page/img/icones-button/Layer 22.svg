@@ -1,0 +1,8 @@
+<svg id="Layer_22" data-name="Layer 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="16" viewBox="0 0 12 16">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 29 38">
+      <image width="29" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAmCAYAAAA4LpBhAAAABHNCSVQICAgIfAhkiAAAArNJREFUWEe92F3Ij2ccwPHPQ/OyNREOWJwQrWjFvDWslOJg4iE2UeMEkwNKSaG0E0oklhQHlpe1A9OaopWX1paXxEbb8tKYlnraZCNWRD9d/7pd/Xmeeu7Lr+6D+76v+/e9rt/1u34vd0tra6sa5QNMxlFcepnelpqg72AzZqM7ZuGbktB3cRjDE+QxxuFCKWhvnMR7FcCf6f5uKWiYdHWmfBeWvcpPOrOnsY/hLH0rgPsYi19LQedjf6Z8Jba1dxo6s9KNWJcAT/E51rcHjPedga7FUlzEDhzvCLA9aH+MxzDESv5Ie3g9Ke+BN/Bfuo+xEzA0Pb+BEziTT6bZSrsi9mYFBmcf3MNPOJCiTkxsTrpGIL6tSpzZI1iFW40XOfQt7MXcDpjqb7yJnh0Yew0zcSU3b8xyH8IrS8hNTMTt6krjQH9RgpZ0fodFaGtA+yQnGVQIeiyZ91HVvAvwZSFgW4pS4f3PpbHSPVhcCBpBZENVd0C74CxGF4A+xJiG11ZX2i/t58AC0MsJ+nwvq9CIIOcQubFu+R5Tc6Vh3sj4Yd5edRMRXjvtdUN/Tp77f27eIThfyLyR1N/H7zk0zPpLk+Bel7XXYFMOjftTqV6tC1TVEzE3jk0EiReCw/aUykpAQ+chfJJDI5V9VYqY9EZ1EZXjo0YYjMAQBzkCf0mJGnlhNbUdxMclifgHI6vQ6akEKcndjSVVaDf8kDytBPgJoqs7k9dI85KnlYB+ixmhOIdGnRT165SaqVEVfogfm0Hj2SicRlSGdUnUXsvzc5orjzp1S03EaKYmIUrWFyJSrr8FO9tp+UJJJOcBiOqjmfyFj/IG+VW9THjzVnxW0RYNbyTmaO0jbT1AZKlQHNfIytjf8GlH24p8xvH/IFqGq2mvY/bN5O10JKLW+hdf406zgc8AJ3Od4dNmTbsAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <rect id="Layer_22-2" data-name="Layer 22" width="12" height="16" fill="url(#pattern)"/>
+</svg>
